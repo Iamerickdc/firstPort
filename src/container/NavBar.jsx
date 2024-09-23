@@ -30,11 +30,11 @@ const NavBar = () => {
           {isOpen && (
             <div className="md:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Home</a>
+                <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Home</Link>
                 {/* <a href="ser" ></a> */}
                 <Link to="/ser" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Services</Link>
-                <a href="skil" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Skills</a>
-                <a href="cont" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Contact</a>
+                <Link to="skil" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Skills</Link>
+                <Link to="cont" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Contact</Link>
               </div>
             </div>
           )}

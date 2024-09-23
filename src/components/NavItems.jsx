@@ -18,9 +18,9 @@ const NavItems = () => {
             key={index}
             className="mr-10 hover:text-blue-500 flex items-center space-x-10"
           >
-            <a href={links.Path} className="flex items-center">
+            <Link to={links.Path} className="flex items-center">
               <span className="ml-2">{links.name}</span>{" "}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
