@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavItems from '../components/NavItems';
 import { Menu, X } from 'lucide-react';
 import Images from '../assets/Images';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,8 @@ const NavBar = () => {
             <div className="md:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Home</a>
-                <a href="ser" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Services</a>
+                {/* <a href="ser" ></a> */}
+                <Link to="/ser" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Services</Link>
                 <a href="skil" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Skills</a>
                 <a href="cont" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Contact</a>
               </div>
