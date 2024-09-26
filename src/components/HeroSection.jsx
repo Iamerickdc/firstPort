@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Images from '../assets/Images'
 import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
+  // const [isAnimating, setIsAnimating] = useState(true);
+
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsAnimating(false);
+  //   }, 1000);
+  //   return () => {
+  //     clearTimeout(timer);
+  //   };
+  // }, []);
+  
+
   return (
     <div>
 
@@ -33,7 +45,7 @@ const HeroSection = () => {
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-200 to-indigo-100 transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
         <img 
-          className="relative rounded-3xl shadow-2xl object-cover object-center w-full h-full max-h-96 md:max-h-full" 
+          className="relative rounded-3xl shadow-2xl object-cover object-center w-full h-full max-h-96 md:max-h-full hover:shadow-2xl hover:-translate-y-2" 
           alt="Erick Osayande" 
           src={Images.image2} 
         />
