@@ -1,5 +1,6 @@
 import React from 'react'
 import Images from '../assets/Images'
+import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
   return (
@@ -23,9 +24,9 @@ const HeroSection = () => {
           user-friendly websites make me the perfect choice for your next project.
         </p>
         <div className="pt-4">
-          <a href="cont" className="inline-block bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300 ease-in-out">
+          <Link to="cont" className="inline-block bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300 ease-in-out">
             Get in Touch
-          </a>
+          </Link>
         </div>
 
       </div>
