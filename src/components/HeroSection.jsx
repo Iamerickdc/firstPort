@@ -3,16 +3,7 @@ import Images from '../assets/Images'
 import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
-  // const [isAnimating, setIsAnimating] = useState(true);
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setIsAnimating(false);
-  //   }, 1000);
-  //   return () => {
-  //     clearTimeout(timer);
-  //   };
-  // }, []);
+  
   
 
   return (
