@@ -8,7 +8,7 @@ const HeroSection = () => {
 
   return (
     <div>
-
+      
 <section className="relative bg-gray-50 text-gray-800 min-h-screen flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8">
   <div className="container mx-auto max-w-7xl">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
